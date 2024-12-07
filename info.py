@@ -15,18 +15,18 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24959280'))
 API_HASH = environ.get('API_HASH', '877c11dd169fcf42c736cca0b4ab065e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7309538637:AAHLSaKR9vial0pMDCnSaEFmYMARSVK3C-c')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7442416823:AAEZ2vE42KwzUA5y1s8_y82jgFK2rxdgye4')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6003890858').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Scary_Bhaii") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002271850402'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/all_type_movie_search')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002392795833').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002264119271'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movies_search_20')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002308833937').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://krishnendumahat2008:krishnendu2008@krishnendu.eg0xe.mongodb.net/?retryWrites=true&w=majority&appName=Krishnendu")
-DATABASE_NAME = environ.get('DATABASE_NAME', KrishnenduMahata2008")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Krishnendu:Krishnendu@krishnendu.uoy6y.mongodb.net/?retryWrites=true&w=majority&appName=Krishnendu")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Krishnendu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
